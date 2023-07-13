@@ -1,0 +1,10 @@
+{
+  "position": 2,
+  "label": "QLab",
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "doc",
+    "id": "QLAB/qlab"
+  }
+}
