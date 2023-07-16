@@ -23,7 +23,7 @@ A QLab document is called a **workspace**. Each workspace is the heart of the sh
 
 ![The Workspace](img/Workspace.png)
 
-### The Masthead
+## The Masthead
 
 The top part of the workspace is referred to as "The Masthead." The masthead displays four elements, the GO button <sup>1</sup>, the standby display <sup>2</sup>, the notes field <sup>3</sup>, and the toolbar <sup>4</sup>.
 <br/>
@@ -35,26 +35,26 @@ The top part of the workspace is referred to as "The Masthead." The masthead dis
 3. The notes field is a rich text input field, and is searchable along with cue names by using <kbd>&#8984; F</kbd>.
 4. The toolbar is a row of buttons for each type of cue available in QLab. This section will be covered when using Load To Time or the search function.
 
-## The Cue List
+### The Cue List
 
-The cue list populates in the middle section of the workspace. There is one row per cue, and multiple columns showing different information depending on the cue type. Most of these values can be edited by double clicking the cue, editing it in the inspector window, or using the respective keybind.
+The cue list populates in the middle section of the workspace. There is one row per cue, and multiple columns showing different information depending on the cue type. Most of these values can be edited by double clicking the cue, editing it in the inspector window, or using the respective keybind. Important sections will be covered in more detail below.
 
 ![Cue List](img/Cue-List.png)
 
 1. Type. This column shows a glyph representing the type of cue.
 2. Number. The assigned cue number from the list, strictly for cosmetic and organization purposes <kbd>N</kbd>
 3. Name. The assigned name to a cue, can be left blank, or filled in with the default QLab naming scheme. <kbd>Q</kbd>
-4. Target. The target of the cue being fired, whether its a file (audio, video, etc) or another cue (fade, devamp, etc.).<kbd>T</kbd>
-5. Pre-Wait. Delay which transpires before the cue starts. (see below)<kbd>E</kbd>
-6. Duration. The length or time a cue will take to complete.<kbd>D</kbd>
-7. Post-Wait. Meaningful only if the cue is set to auto-follow (discussed below). The amount of time for QLab to wait to start the next cue when an auto-follow is triggered. (see below) <kbd>W</kbd>
+4. Target. The target of the cue being fired, whether its a file or another cue.<kbd>T</kbd>
+5. Pre-Wait. Delay which transpires before the cue starts. <kbd>E</kbd>
+6. Duration. The length or time a cue will take to complete. <kbd>D</kbd>
+7. Post-Wait. Meaningful only if the cue is set to auto-follow. The amount of time for QLab to wait to start the next cue when an auto-follow is triggered. <kbd>W</kbd>
 8. Continue Mode. (see below) 
 
 ### Pre-Wait
 
 Pre-wait is an optional delay that transpires before the cue starts. For example, when you start an Audio cue with a pre-wait of 3, that cue will allow three seconds to elapse, counting down its pre-wait, and then the audio will begin playing.
 
-![Pre-Wait-Countdown](img/Prewait.mp4)
+![Pre-Wait-Countdown](img/Prewait.gif)
 
 ### Post-Wait
 
